@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background-color: #F5F5F7;
+    color: #142D4C;
+    line-height: 1.6;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 150%;
+    box-shadow:0 0 100px rgba(224, 209, 209, 0.1);
+  }
+  
+  h1,h2,h3 {
+    font-family: Space Mono;
+    color: #385170;
+    padding:0;
+  }
+  
+  .card {
+    background-color: #e4e7eb;
+    padding: 20px;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #b7b9d7;
+    box-shadow:0 0 30px rgba(110, 116, 123, 0.3);
+  }
+  
+  .container {
+    background-color: #EEF5FF;
+    padding: 200px;
+    width: 700px;
+    margin: 25px auto;
+    border-radius: 5px;
+    border: px solid #b6b7c3;
+    box-shadow:0 0 16px rgba(0, 0, 0, 0.2;
+  }
+  a:hover {
+    color:#2d107e;
+  }
+  @media (max-width: 960px)
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
